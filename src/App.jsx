@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import ProductList from './ProductList';
 import './App.css';
@@ -18,6 +17,7 @@ function App() {
         <div className="background-image"></div>
         <div className="content">
          <div className="landing_content">
+         <p className="plant_logo_left"><img src="https://p1.hiclipart.com/preview/922/979/640/green-leaf-logo-emoji-seedling-emoticon-sticker-plant-plant-stem-flower-png-clipart-thumbnail.jpg" height='50px' width='50px' alt="" /></p>
          <h1>Welcome To Paradise Nursery</h1>
           <div className="divider"></div>
           <p>Where Green Meets Serenity</p>
@@ -40,6 +40,3 @@ function App() {
 }
 
 export default App;
-
-
-
